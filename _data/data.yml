@@ -15,7 +15,7 @@ sidebar:
     email: diegotony1396@gmail.com
     timezone: America/Guayaquil Timezone
     citizenship:
-    website: blog.constant1n396.com #do not add http://
+    website: www.constant1n396.com/ #do not add http://
     linkedin: diegotony
     github: diegotony
     gitlab: diegotony
@@ -118,17 +118,17 @@ projects:
     #   Projects to which I dedicate my time in my spare time.
     assignments:
 
-      - title: gh-pipelines
-        autor: diegotony
-
-
       - title: diagrams-action
         autor: diegotony
 
-      - title: ops-supply
+
+      - title: fun_minecraft_server
         autor: diegotony
 
-      - title: project-minecraft-server-terragrunt 
+      - title: gh-pipelines
+        autor: diegotony
+
+      - title: home-pi
         autor: diegotony
 
 publications:
@@ -138,29 +138,6 @@ publications:
         link: "https://link.springer.com/chapter/10.1007/978-3-030-71503-8_37"
         authors: Diego Antonio Castillo Rivas & Daniel Guamán 
         conference: "First Online: 01 April 2021"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: python
-        level: 90%
-
-      - name: bash
-        level: 75%
-
-      - name: docker
-        level: 90%
-
-      - name: terraform
-        level: 90%
-
-      - name: ansible
-        level: 90%
-
-      - name: aws
-        level: 60%
-
 
 footer: >
     Redisigned by <a href="https://github.com/diegotony" target="_blank" rel="nofollow">@diegotony</a>  and Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
