@@ -1,143 +1,118 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
+---
+# Personal Information
+name: Diego Antonio Castillo Rivas  
+email: diegotony1396@gmail.com
+timezone: America/Guayaquil
+website: www.constant1n396.com
+linkedin: diegotony
+github: diegotony
+gitlab: diegotony
 
-sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+languages:
+  - language: Spanish
+    proficiency: Native
+  - language: English
+    proficiency: Medium
 
-    # Profile information
-    name: Diego Castillo
-    tagline: DevOps Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+interests:
+  - item: Crossfit
+    link: https://www.crossfit.com/
+  - item: Cooking
+  - item: Reading
+  - item: Videogames
 
-    # Sidebar links
-    email: diegotony1396@gmail.com
-    timezone: America/Guayaquil Timezone
-    citizenship:
-    website: www.constant1n396.com/ #do not add http://
-    linkedin: diegotony
-    github: diegotony
-    gitlab: diegotony
-    # twitter: '@webjeda'
-    # stack-overflow: # Number/Username, e.g. 123456/alandoe
-    # goodreads: # Number-Username, e.g. 123456-alandoe
-    # pdf: http://www.africau.edu/images/default/sample.pdf
-
-    languages:
-      - idiom: Spanish
-        level: Native
-
-      - idiom: English
-        level: Medium
-
-    interests:
-      - item: Crossfit
-        link: https://www.crossfit.com/
-
-      - item: Cooking
-        link:
-
-      - item: Reading
-        link:
-
-      - item: Videogames
-        link:
-
+# Career Profile
 career-profile:
-    title: Career Profile
-    summary: |
-      I am a DevOps Engineer, with experience in building/maintaining systems and process automation. As main skills I use IaC, CI/CD pipeline implementation, system monitoring. I am willing to help as much as I can and learn as much as I can.
+  title: Career Profile
+  summary: |
+    Results-driven DevOps Engineer with a proven track record in architecting and maintaining robust systems. Proficient in Infrastructure as Code (IaC), CI/CD pipeline implementation, and comprehensive system monitoring. Demonstrated expertise in managing Kubernetes clusters, AWS, Azure, and GCP cloud environments. Well-versed in Terraform, Ansible, and other automation tools. Adept at collaborating with cross-functional teams and contributing to the design and optimization of deployment workflows. Committed to continuous learning and staying abreast of emerging industry trends. Eager to leverage technical acumen and problem-solving skills to drive efficiency and innovation in a dynamic professional setting.
+
+# Education
 education:
-    - degree: Computer Systems and Computing
-      university: Universidad Tecnica Particular de Loja
-      time: 2014-2020
+  - degree: Computer Systems and Computing
+    university: Technical Particular University of Loja
+    time: 2014-2020
 
+# Work Experiences
 experiences:
-    - role: DevOps Platform Engineer
-      time: 2022 Feb - Present
-      company: Intive
-      # details: |
-      #   Describe your role here lorem ipsum dolor sit amet, consectetuer
-      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      #   Cum sociis natoque penatibus et magnis dis parturient montes,
-      #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      #   pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      #   enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      #   error sit voluptatem accusantium doloremque laudantium, totam rem
-      #   aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      #   architecto beatae vitae dicta sunt explicabo.
-      #     - Bullet point
-      #     - Bullet point
-    - role: DevOps Engineer
-      time: 2021 Sep - 2022 Feb
-      company: Avalith
-      details: |
-        - Managing 5 production clusters of Kubernetes.
-        - AWS management. 
-        - Helped architect the company's deployment workflow, using company made tools and external CI/CD services like GitLab CI.
-        - Using GitFlow model. 
-        - Worked on designing the terraform code repository which takes care of the entire company infrastructure, including AWS
-        - Using terraform plugins like terragrunt, terraformer and tfsec for migrated the whole company collection of resources
-        - Configuring remote servers with Ansible Roles
+  - role: DevOps Platform Engineer
+    time: 2022 Feb - Present
+    company: Intive
+    details: |
+      - Designed, implemented, and maintained monitoring solutions using New Relic to ensure comprehensive visibility into system performance. Managed and optimized configurations for meaningful insights.
+      - Implemented OpenTelemetry for advanced application observability, ensuring efficient capture of traces, metrics, and logs.
+      - Developed AWS Lambda functions, focusing on event-driven architecture for efficient and scalable execution.
+      - Actively programmed in Python and Bash for task automation and maintenance script creation.
+      - Configured and managed CI/CD pipelines using GitLab CI and GitHub Actions to optimize development and deployment workflows.
+      - Regularly maintained and updated Kubernetes manifests using Helm Chart and Customize to ensure consistency and efficiency in application deployment.
+      - Managed and maintained integration with New Relic, ensuring proper capture and analysis of data for continuous performance improvement.
+      - Implemented Infrastructure as Code (IaC) using Terraform for AWS, Kubernetes, and New Relic providers, ensuring efficient and scalable management of cloud resources and monitoring configuration.
+      - Extensive management of core AWS services, such as Lambda, EC2, ECS, EKS, CloudWatch, RDS, and Secret Manager, ensuring a robust and secure infrastructure.
 
-    - role: DevOps Engineer / SRE
-      time: 2020 Sep - 2021 Sep
-      company: ioet Inc.
-      details: |
-        - Operations Engineer with experience in serverless and microservices architecture.
-        - CI / CD with GitHub Actions and Azure DevOps.
-        - OWASP practices
-        - Work with AWS (API Gateway, Lambda, DynamoDB, SNS, SQS, SES, KMS, Secret Manager, Elastic Container Registry, Elastic Container Service), Azure (Function App, B2C Tenant, Key Vault, App Configuration, Cosmos DB, App Service, Container Registry) and GCP (Cloud Run , Secret Manager, GKE, Container Registry )
-        - IaC with Terraform and CloudFormation
-        - Bash, Makefile and Python for Task Automatization
+  - role: DevOps Engineer
+    time: 2021 Sep - 2022 Feb
+    company: Avalith
+    details: |
+      - AWS management (EKS and ECS) 
+      - Helped architect the company's deployment workflow, using internal tools and external CI/CD services like GitLab CI.
+      - Used the GitFlow model.
+      - Worked on designing the Terraform code repository that takes care of the entire company infrastructure.
+      - Used Terraform plugins like Terragrunt, Terraformer, and Tfsec to migrate the entire company collection of resources.
+      - Configured remote servers with Ansible Roles.
 
-    - role: Plataform Engineer
-      time: 2020 Mar - 2020 Sep
-      company: Freelance
-      details: |
-        - Mobile App Developer with React Native
-        - Firebase Database Admin
-        - Backend Developer with Node.js
-        - App Developer with Amplify Framework
-        - DynamoDB Database Admin
-        - Linux SysAdmin
-        - Power BI Analytics and Data Visualization
+  - role: DevOps Engineer / SRE
+    time: 2020 Sep - 2021 Sep
+    company: ioet Inc.
+    details: |
+      - Operations Engineer with experience in serverless and microservices architecture.
+      - CI / CD with GitHub Actions and Azure DevOps.
+      - OWASP practices
+      - Worked with AWS, Azure, and GCP, implementing IaC with Terraform and CloudFormation.
+      - Used Bash, Makefile, and Python for Task Automatization.
 
-    - role: Backend Developer
-      time: 2019 Sep - 2020 Mar
-      company: UTPL
-      details: |
-        - Backend Developer
-        - SysAdmin Linux
-        - App Administrator (Docker)
-        - MongoDB Database Admin
+  - role: Platform Engineer
+    time: 2020 Mar - 2020 Sep
+    company: Freelance
+    details: |
+      - Mobile App Developer with React Native.
+      - Firebase Database Admin.
+      - Backend Developer with Node.js.
+      - App Developer with Amplify Framework.
+      - DynamoDB Database Admin.
+      - Linux SysAdmin.
+      - Power BI Analytics and Data Visualization.
+
+  - role: Backend Developer
+    time: 2019 Sep - 2020 Mar
+    company: UTPL
+    details: |
+      - Backend Developer.
+      - Linux SysAdmin.
+      - App Administrator (Docker).
+      - MongoDB Database Admin.
+
+# Projects
 projects:
-    title: Projects
-    # intro: >
-    #   Projects to which I dedicate my time in my spare time.
-    assignments:
+  title: Projects
+  assignments:
+    - title: diagrams-action
+      author: diegotony
+    - title: fun_minecraft_server
+      author: diegotony
+    - title: gh-pipelines
+      author: diegotony
+    - title: home-pi
+      author: diegotony
 
-      - title: diagrams-action
-        autor: diegotony
-
-
-      - title: fun_minecraft_server
-        autor: diegotony
-
-      - title: gh-pipelines
-        autor: diegotony
-
-      - title: home-pi
-        autor: diegotony
-
+# Publications
 publications:
-    title: Publications
-    papers:
-      - title: Performance and Security Evaluation in Microservices Architecture Using Open Source Containers
-        link: "https://link.springer.com/chapter/10.1007/978-3-030-71503-8_37"
-        authors: Diego Antonio Castillo Rivas & Daniel Guamán 
-        conference: "First Online: 01 April 2021"
+  title: Publications
+  papers:
+    - title: "Performance and Security Evaluation in Microservices Architecture Using Open Source Containers"
+      link: "https://link.springer.com/chapter/10.1007/978-3-030-71503-8_37"
+      authors: "Diego Antonio Castillo Rivas & Daniel Guamán"
+      conference: "First Online: 01 April 2021"
 
-footer: >
-    Redisigned by <a href="https://github.com/diegotony" target="_blank" rel="nofollow">@diegotony</a>  and Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# Footer
+footer: |
+  Redesigned by <a href="https://github.com/diegotony" target="_blank" rel="nofollow">@diegotony</a> and Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
