@@ -93,16 +93,24 @@ experiences:
 
 # Projects
 projects:
-  title: Projects
-  assignments:
-    - title: diagrams-action
-      author: diegotony
-    - title: fun_minecraft_server
-      author: diegotony
-    - title: gh-pipelines
-      author: diegotony
-    - title: home-pi
-      author: diegotony
+    title: Projects
+    # intro: >
+    #   Projects to which I dedicate my time in my spare time.
+    assignments:
+
+      - title: diagrams-action
+        autor: diegotony
+
+
+      - title: fun_minecraft_server
+        autor: diegotony
+
+      - title: gh-pipelines
+        autor: diegotony
+
+      - title: home-pi
+        autor: diegotony
+
 
 # Publications
 publications:
