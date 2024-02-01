@@ -1,9 +1,9 @@
 ---
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Diego Antonio Castillo Rivas  
@@ -65,8 +65,8 @@ experiences:
     - role: DevOps Platform Engineer
       time: 2022 Feb - Present
       company: Intive
-      modality: Remote
       details: |
+        - Remote
         - Designed, implemented, and maintained monitoring solutions using New Relic to ensure comprehensive visibility into system performance. Managed and optimized configurations for meaningful insights.
         - Implemented OpenTelemetry for advanced application observability, ensuring efficient capture of traces, metrics, and logs.
         - Developed AWS Lambda functions, focusing on event-driven architecture for efficient and scalable execution.
@@ -80,8 +80,8 @@ experiences:
     - role: DevOps Engineer
       time: 2021 Sep - 2022 Feb
       company: Avalith
-      modality: Remote
       details: |
+        - Remote
         - AWS management (EKS and ECS) 
         - Helped architect the company's deployment workflow, using internal tools and external CI/CD services like GitLab CI.
         - Used the GitFlow model.
@@ -92,8 +92,8 @@ experiences:
     - role: DevOps Engineer / SRE
       time: 2020 Sep - 2021 Sep
       company: ioet Inc.
-      modality: Hydrid
       details: |
+        - Hybrid
         - Operations Engineer with experience in serverless and microservices architecture.
         - CI / CD with GitHub Actions and Azure DevOps.
         - OWASP practices
@@ -103,8 +103,8 @@ experiences:
     - role: Backend Developer
       time: 2020 Mar - 2020 Sep
       company: Freelance
-      modality: Hydrid
       details: |
+        - Hybrid
         - Mobile App Developer with React Native.
         - Firebase Database Admin.
         - Backend Developer with Node.js.
@@ -122,14 +122,14 @@ certifications:
           organization: Udemy
           credentialid: UC-6cda1708-17d8-4a82-8fd9-193a51e905c9
           credentialurl: https://www.udemy.com/certificate/UC-6cda1708-17d8-4a82-8fd9-193a51e905c9/
-          credentialname: Bash - Interprete de Comandos de Linux. Aprende desde cero
+          # credentialname: Bash - Interprete de Comandos de Linux. Aprende desde cero
 
         - name: DevOps Essentials
           end: 2022
           organization: Linux Academy
           credentialid: UC-8c78501b-e733-4b4a-9579-445d2bb97683
           credentialurl: https://www.udemy.com/certificate/UC-8c78501b-e733-4b4a-9579-445d2bb97683/
-          credentialname: DevOps Essentials
+          # credentialname: DevOps Essentials
 
 
 
