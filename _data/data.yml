@@ -133,40 +133,27 @@ certifications:
 
 
 
-# projects:
-#     title: Projects
-#     intro: >
-#       Holi
-#     assignments:
+projects:
+    title: Projects
+    assignments:
 
-#       - title: diagrams-action
-#         autor: diegotony
+      - title: diagrams-action
+        autor: diegotony
 
-#       - title: gh-pipelines
-#         autor: diegotony
+      - title: gh-pipelines
+        autor: diegotony
 
-#       - title: home-pi
-#         autor: diegotony
+      - title: home-pi
+        autor: diegotony
 
 
-# oss:
-#     title: OSS Contributions
-#     intro: >
-#       You can list your open source software contributions in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     contributions:
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+oss:
+    title: OSS Contributions
+    contributions:
+      - title: Apache-Devlake
+        link: "https://github.com/apache/incubator-devlake"
+        tagline: "Apache DevLake is an open-source dev data platform to ingest, analyze, and visualize the fragmented data from DevOps tools, extracting insights for engineering excellence, developer experience, and community growth."
 
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
   title: Publications
