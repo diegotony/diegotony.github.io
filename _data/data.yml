@@ -38,6 +38,7 @@ experiences:
   - role: DevOps Platform Engineer
     time: 2022 Feb - Present
     company: Intive
+    modality: Remote
     details: |
       - Designed, implemented, and maintained monitoring solutions using New Relic to ensure comprehensive visibility into system performance. Managed and optimized configurations for meaningful insights.
       - Implemented OpenTelemetry for advanced application observability, ensuring efficient capture of traces, metrics, and logs.
@@ -52,6 +53,7 @@ experiences:
   - role: DevOps Engineer
     time: 2021 Sep - 2022 Feb
     company: Avalith
+    modality: Remote
     details: |
       - AWS management (EKS and ECS) 
       - Helped architect the company's deployment workflow, using internal tools and external CI/CD services like GitLab CI.
@@ -63,6 +65,7 @@ experiences:
   - role: DevOps Engineer / SRE
     time: 2020 Sep - 2021 Sep
     company: ioet Inc.
+    modality: Hydrid
     details: |
       - Operations Engineer with experience in serverless and microservices architecture.
       - CI / CD with GitHub Actions and Azure DevOps.
@@ -70,9 +73,10 @@ experiences:
       - Worked with AWS, Azure, and GCP, implementing IaC with Terraform and CloudFormation.
       - Used Bash, Makefile, and Python for Task Automatization.
 
-  - role: Platform Engineer
+  - role: Backend Developer
     time: 2020 Mar - 2020 Sep
     company: Freelance
+    modality: Hydrid
     details: |
       - Mobile App Developer with React Native.
       - Firebase Database Admin.
@@ -82,27 +86,12 @@ experiences:
       - Linux SysAdmin.
       - Power BI Analytics and Data Visualization.
 
-  - role: Backend Developer
-    time: 2019 Sep - 2020 Mar
-    company: UTPL
-    details: |
-      - Backend Developer.
-      - Linux SysAdmin.
-      - App Administrator (Docker).
-      - MongoDB Database Admin.
-
 # Projects
 projects:
     title: Projects
-    # intro: >
-    #   Projects to which I dedicate my time in my spare time.
     assignments:
 
       - title: diagrams-action
-        autor: diegotony
-
-
-      - title: fun_minecraft_server
         autor: diegotony
 
       - title: gh-pipelines
