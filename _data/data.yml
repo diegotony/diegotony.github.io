@@ -8,7 +8,7 @@ sidebar:
     # Profile information
     name: Diego Antonio Castillo Rivas  
     tagline: DevOps Platform Enginner
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: diegotony1396@gmail.com
@@ -125,7 +125,7 @@ certifications:
           # credentialname: Bash - Interprete de Comandos de Linux. Aprende desde cero
 
         - name: DevOps Essentials
-          end: 2022
+          start: 2022
           organization: Linux Academy
           credentialid: UC-8c78501b-e733-4b4a-9579-445d2bb97683
           credentialurl: https://www.udemy.com/certificate/UC-8c78501b-e733-4b4a-9579-445d2bb97683/
