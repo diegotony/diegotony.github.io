@@ -50,7 +50,7 @@ career-profile:
 
 # Education]
 
-projects:
+education:
   title: Education
   info:
     - degree: Computer Systems and Computing
@@ -60,56 +60,58 @@ projects:
 
 # Work Experiences
 experiences:
-  - role: DevOps Platform Engineer
-    time: 2022 Feb - Present
-    company: Intive
-    modality: Remote
-    details: |
-      - Designed, implemented, and maintained monitoring solutions using New Relic to ensure comprehensive visibility into system performance. Managed and optimized configurations for meaningful insights.
-      - Implemented OpenTelemetry for advanced application observability, ensuring efficient capture of traces, metrics, and logs.
-      - Developed AWS Lambda functions, focusing on event-driven architecture for efficient and scalable execution.
-      - Actively programmed in Python and Bash for task automation and maintenance script creation.
-      - Configured and managed CI/CD pipelines using GitLab CI and GitHub Actions to optimize development and deployment workflows.
-      - Regularly maintained and updated Kubernetes manifests using Helm Chart and Customize to ensure consistency and efficiency in application deployment.
-      - Managed and maintained integration with New Relic, ensuring proper capture and analysis of data for continuous performance improvement.
-      - Implemented Infrastructure as Code (IaC) using Terraform for AWS, Kubernetes, and New Relic providers, ensuring efficient and scalable management of cloud resources and monitoring configuration.
-      - Extensive management of core AWS services, such as Lambda, EC2, ECS, EKS, CloudWatch, RDS, and Secret Manager, ensuring a robust and secure infrastructure.
+  title: Experiences
+  info:
+    - role: DevOps Platform Engineer
+      time: 2022 Feb - Present
+      company: Intive
+      modality: Remote
+      details: |
+        - Designed, implemented, and maintained monitoring solutions using New Relic to ensure comprehensive visibility into system performance. Managed and optimized configurations for meaningful insights.
+        - Implemented OpenTelemetry for advanced application observability, ensuring efficient capture of traces, metrics, and logs.
+        - Developed AWS Lambda functions, focusing on event-driven architecture for efficient and scalable execution.
+        - Actively programmed in Python and Bash for task automation and maintenance script creation.
+        - Configured and managed CI/CD pipelines using GitLab CI and GitHub Actions to optimize development and deployment workflows.
+        - Regularly maintained and updated Kubernetes manifests using Helm Chart and Customize to ensure consistency and efficiency in application deployment.
+        - Managed and maintained integration with New Relic, ensuring proper capture and analysis of data for continuous performance improvement.
+        - Implemented Infrastructure as Code (IaC) using Terraform for AWS, Kubernetes, and New Relic providers, ensuring efficient and scalable management of cloud resources and monitoring configuration.
+        - Extensive management of core AWS services, such as Lambda, EC2, ECS, EKS, CloudWatch, RDS, and Secret Manager, ensuring a robust and secure infrastructure.
 
-  - role: DevOps Engineer
-    time: 2021 Sep - 2022 Feb
-    company: Avalith
-    modality: Remote
-    details: |
-      - AWS management (EKS and ECS) 
-      - Helped architect the company's deployment workflow, using internal tools and external CI/CD services like GitLab CI.
-      - Used the GitFlow model.
-      - Worked on designing the Terraform code repository that takes care of the entire company infrastructure.
-      - Used Terraform plugins like Terragrunt, Terraformer, and Tfsec to migrate the entire company collection of resources.
-      - Configured remote servers with Ansible Roles.
+    - role: DevOps Engineer
+      time: 2021 Sep - 2022 Feb
+      company: Avalith
+      modality: Remote
+      details: |
+        - AWS management (EKS and ECS) 
+        - Helped architect the company's deployment workflow, using internal tools and external CI/CD services like GitLab CI.
+        - Used the GitFlow model.
+        - Worked on designing the Terraform code repository that takes care of the entire company infrastructure.
+        - Used Terraform plugins like Terragrunt, Terraformer, and Tfsec to migrate the entire company collection of resources.
+        - Configured remote servers with Ansible Roles.
 
-  - role: DevOps Engineer / SRE
-    time: 2020 Sep - 2021 Sep
-    company: ioet Inc.
-    modality: Hydrid
-    details: |
-      - Operations Engineer with experience in serverless and microservices architecture.
-      - CI / CD with GitHub Actions and Azure DevOps.
-      - OWASP practices
-      - Worked with AWS, Azure, and GCP, implementing IaC with Terraform and CloudFormation.
-      - Used Bash, Makefile, and Python for Task Automatization.
+    - role: DevOps Engineer / SRE
+      time: 2020 Sep - 2021 Sep
+      company: ioet Inc.
+      modality: Hydrid
+      details: |
+        - Operations Engineer with experience in serverless and microservices architecture.
+        - CI / CD with GitHub Actions and Azure DevOps.
+        - OWASP practices
+        - Worked with AWS, Azure, and GCP, implementing IaC with Terraform and CloudFormation.
+        - Used Bash, Makefile, and Python for Task Automatization.
 
-  - role: Backend Developer
-    time: 2020 Mar - 2020 Sep
-    company: Freelance
-    modality: Hydrid
-    details: |
-      - Mobile App Developer with React Native.
-      - Firebase Database Admin.
-      - Backend Developer with Node.js.
-      - App Developer with Amplify Framework.
-      - DynamoDB Database Admin.
-      - Linux SysAdmin.
-      - Power BI Analytics and Data Visualization.
+    - role: Backend Developer
+      time: 2020 Mar - 2020 Sep
+      company: Freelance
+      modality: Hydrid
+      details: |
+        - Mobile App Developer with React Native.
+        - Firebase Database Admin.
+        - Backend Developer with Node.js.
+        - App Developer with Amplify Framework.
+        - DynamoDB Database Admin.
+        - Linux SysAdmin.
+        - Power BI Analytics and Data Visualization.
 
 
 certifications:
