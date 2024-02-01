@@ -8,18 +8,70 @@ linkedin: diegotony
 github: diegotony
 gitlab: diegotony
 
-languages:
-  - language: Spanish
-    proficiency: Native
-  - language: English
-    proficiency: Medium
+# languages:
+#   - language: Spanish
+#     proficiency: Native
+#   - language: English
+#     proficiency: Medium
 
-interests:
-  - item: Crossfit
-    link: https://www.crossfit.com/
-  - item: Cooking
-  - item: Reading
-  - item: Videogames
+# interests:
+#   - item: Crossfit
+#     link: https://www.crossfit.com/
+#   - item: Cooking
+#   - item: Reading
+#   - item: Videogames
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Alan Doe
+    tagline: Full Stack Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: hello@webjeda.com
+    phone: 012 345 6789
+    timezone: America/Cancun Timezone
+    citizenship:
+    website: blog.webjeda.com #do not add http://
+    linkedin: alandoe
+    xing: alandoe
+    github: sharu725
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+
+        - idiom: French
+          level: Professional
+
+        - idiom: Spanish
+          level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: Climbing
+          link:
+
+        - item: Snowboarding
+          link:
+
+        - item: Cooking
+          link:
 
 # Career Profile
 career-profile:
@@ -27,11 +79,15 @@ career-profile:
   summary: |
     Results-driven DevOps Engineer with a proven track record in architecting and maintaining robust systems. Proficient in Infrastructure as Code (IaC), CI/CD pipeline implementation, and comprehensive system monitoring. Demonstrated expertise in managing Kubernetes clusters, AWS, Azure, and GCP cloud environments. Well-versed in Terraform, Ansible, and other automation tools. Adept at collaborating with cross-functional teams and contributing to the design and optimization of deployment workflows. Committed to continuous learning and staying abreast of emerging industry trends. Eager to leverage technical acumen and problem-solving skills to drive efficiency and innovation in a dynamic professional setting.
 
-# Education
-education:
-  - degree: Computer Systems and Computing
-    university: Technical Particular University of Loja
-    time: 2014-2020
+# Education]
+
+projects:
+  title: Education
+  info:
+    - degree: Computer Systems and Computing
+      university: Technical Particular University of Loja
+      time: 2014-2020
+
 
 # Work Experiences
 experiences:
@@ -86,22 +142,61 @@ experiences:
       - Linux SysAdmin.
       - Power BI Analytics and Data Visualization.
 
-# Projects
-projects:
-    title: Projects
-    assignments:
 
-      - title: diagrams-action
-        autor: diegotony
+certifications:
+      title: Certifications
+      list:
+        - name: Bash - Intérprete de Comandos de Linux. Aprende desde cero
+          start: 2022
+          organization: Udemy
+          credentialid: UC-6cda1708-17d8-4a82-8fd9-193a51e905c9
+          credentialurl: https://www.udemy.com/certificate/UC-6cda1708-17d8-4a82-8fd9-193a51e905c9/
+          credentialname: Bash - Interprete de Comandos de Linux. Aprende desde cero
 
-      - title: gh-pipelines
-        autor: diegotony
+        - name: DevOps Essentials
+          end: 2022
+          organization: Linux Academy
+          credentialid: UC-8c78501b-e733-4b4a-9579-445d2bb97683
+          credentialurl: https://www.udemy.com/certificate/UC-8c78501b-e733-4b4a-9579-445d2bb97683/
+          credentialname: DevOps Essentials
 
-      - title: home-pi
-        autor: diegotony
 
 
-# Publications
+# projects:
+#     title: Projects
+#     intro: >
+#       Holi
+#     assignments:
+
+#       - title: diagrams-action
+#         autor: diegotony
+
+#       - title: gh-pipelines
+#         autor: diegotony
+
+#       - title: home-pi
+#         autor: diegotony
+
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
 publications:
   title: Publications
   papers:
